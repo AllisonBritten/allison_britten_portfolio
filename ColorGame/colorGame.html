@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66173802-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66173802-1');
+</script>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+
+		<!-- Game Title -->
+		<h1>Color Guessing Game<div id="colorDisplay">RGB</div></h1>
+		<!-- Game Title -->
+
+		<!-- Options for interaction -->
+		<div id="stripe">
+			<a href="../about.html"><button>Go Back to DBS</button></a>
+			<!-- Button for Resetting -->
+			<button id="reset">New Colors</button>
+			<!-- Button for Resetting -->
+
+			<!-- Result Message -->
+			<span id="message"></span>
+			<!-- Result Message -->
+
+			<!-- Button for Easy -->
+			<button class="mode">Easy</button>
+			<!-- Button for Easy -->
+
+			<!-- Button for Hard -->
+			<button class="mode">Hard</button>
+			<!-- Button for Hard -->
+
+		</div>
+		<!-- Options for interaction -->
+
+	</header>
+
+	<main>
+
+		<!-- Grid of Squares -->
+		<section>
+
+			<!-- Container for Grid of Squares -->
+			<div id="container">	
+
+				<!-- Squares -->
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<!-- Squares -->
+
+			</div>
+			<!-- Container for Grid of Squares -->
+
+		</section>
+		<!-- Grid of Squares -->
+
+	</main>
+
+	<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>

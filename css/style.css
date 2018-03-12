@@ -1,0 +1,236 @@
+/* Your custom styles */
+
+html,
+body,
+header,
+#intro {
+	height: 100%;
+	width: 100%;
+	color: #565656;
+	font-family: 'Hind', sans-serif;
+
+}
+@media (max-width: 100%) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 100%; 
+    } 
+}
+
+footer {
+	margin-top: 0 !important;
+}
+
+
+/**************/
+/****Header****/
+/**************/
+
+#intro {
+	background: url("https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=32fa64a2e096b05b95c10eb31cc9b118&auto=format&fit=crop&w=1500&q=80")no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.top-nav-collapse {
+    background-color: #373737 !important;
+
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #373737 !important;        
+    } 
+}
+h1 {
+    letter-spacing: 8px;
+}
+h2 {
+	letter-spacing: 2px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+#lastName {
+	color: #76323F !important;
+	min-width: 60%;
+	font-size: 150%;
+}
+.headerColor {
+	color: #E7DfDD !important;
+	font-size: 150%;
+}
+
+a.nav-link:hover {
+
+	background: rgba(0, 0, 0, 0.2) !important;
+	font-size: 1.1em;
+	margin: -2%;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+.btn {
+	background: #373737;
+}
+
+img.avatar {
+	width: 80%;
+	border-radius: 15px;
+}
+
+#batman {
+	width: 20%;
+	padding: -10%;
+	height: auto;
+	align-content: center;
+}
+
+#batmanHR {
+	margin: 0 auto;
+}
+
+#hr-style {
+	height: 2px;
+	width: 75px;
+	text-align: left;
+	object-position: top;
+	background: #EB5757;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#whoIam {
+	padding-left: 0px;
+}
+
+/*#batwing {
+	width: 60px;
+}*/
+
+/**********************/
+/*********Main*********/
+/**********************/
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+#ProfilePic{	
+	float: right;
+	width: 400px;
+	max-height: 100%;
+	border:1px solid black;
+	border-radius: 30px;
+}
+
+footer {
+	background-color: #373737;
+}
+
+
+.best-features {
+	background: rgba(0, 0, 0, 0.2);
+	padding-top: 10px;
+}
+
+#textList {
+
+	margin: auto;
+}
+
+.mytList {
+	background: none;
+	border: none	
+}
+
+hr {
+	width: 80%;
+}
+
+/*#myChart {
+	padding: 10px;
+}*/
+
+.techList {
+	background: none;
+	border: none;
+}
+
+.langList {
+	background: none;
+	border: none;
+}
+
+#computer {
+	width: 60%;
+}
+
+.jumbotron {
+
+	background: #3A3A3A;
+
+}
+
+#mainSect {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 30px 0px;
+}
+
+.card {
+	background: transparent;
+}
+
+/*img.img-fluid.portfolio-image {
+
+	width: 350px !important;
+	height: 350px !important;
+	margin: 0;
+}*/
+
+p.hoverText {
+	padding: 10px;
+	font-weight: bold !important;
+	/*font-size: 1.5rem !important;*/
+}
+
+.icon {
+	font-size: 45px;
+	color: #EB5757;  /* fallback for old browsers */
+	color: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/**********************/
+/********Footer********/
+/**********************/
+
+#footerFont{
+	font-size: 100%;
+	font-family: 'Merriweather', serif;
+	color: #E7DfDD;
+}
+
+i:before { 
+	margin: 0px 20px;
+	transition: 0.2s linear;
+}
