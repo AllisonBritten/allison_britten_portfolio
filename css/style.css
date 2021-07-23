@@ -15,8 +15,8 @@ header,
     .full-height body,
     .full-height header,
     .full-height header .view {
-        height: 100%; 
-    } 
+        height: 100%;
+    }
 }
 
 footer {
@@ -45,8 +45,8 @@ footer {
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #373737 !important;        
-    } 
+        background: #373737 !important;
+    }
 }
 h1 {
     letter-spacing: 8px;
@@ -87,7 +87,7 @@ a.nav-link:hover {
 }
 
 img.avatar {
-	width: 80%;
+	width: 30%;
 	border-radius: 15px;
 }
 
@@ -136,7 +136,7 @@ img.avatar {
   to { transform: translateY(0); }
 }
 
-#ProfilePic{	
+#ProfilePic{
 	float: right;
 	width: 400px;
 	max-height: 100%;
@@ -161,7 +161,7 @@ footer {
 
 .mytList {
 	background: none;
-	border: none	
+	border: none
 }
 
 hr {
@@ -230,7 +230,7 @@ p.hoverText {
 	color: #E7DfDD;
 }
 
-i:before { 
+i:before {
 	margin: 0px 20px;
 	transition: 0.2s linear;
 }
