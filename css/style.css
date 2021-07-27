@@ -57,6 +57,10 @@ h2 {
 h5 {
     letter-spacing: 3px;
 }
+
+ul {
+		list-style-type: none;
+}
 .hr-light {
     border-top: 3px solid #fff;
     width: 80px;
