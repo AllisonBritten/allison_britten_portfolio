@@ -29,7 +29,7 @@ footer {
 /**************/
 
 #intro {
-	background: url("https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=32fa64a2e096b05b95c10eb31cc9b118&auto=format&fit=crop&w=1500&q=80")no-repeat center fixed;
+	background: url("../img/kyle-ryan-9PNhKJrRl1s-unsplash.jpg")no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -67,7 +67,7 @@ ul {
 }
 
 #lastName {
-	color: #76323F !important;
+	color: #000000 !important;
 	min-width: 60%;
 	font-size: 150%;
 }
