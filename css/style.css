@@ -95,6 +95,12 @@ img.avatar {
 	border-radius: 15px;
 }
 
+img.thumbnail {
+	width: 4 em;
+	height: 3 em;
+	overflow: hidden;
+}
+
 #hr-style {
 	height: 2px;
 	width: 75px;
